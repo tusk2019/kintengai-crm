@@ -24,4 +24,13 @@ class ClientTable_model extends CI_Model
         return $query;
         }
     }
+	
+	public function search_client_name($search_data)
+    {
+        $this->db->like('name', $search_data['name']);
+        $this->db->where('user_id', $_SESSION['Id']);
+        $query = $this->db->get('guest');
+        $query = $query->result_array();
+        return $query;
+    }
 }
