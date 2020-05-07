@@ -63,7 +63,7 @@ function h($str)
     <!--row-->
     <div class="row">
         <div class="col-12">
-          <a href="http://kintengai.booktown.tokyo/index.php/MasterTableC" class="btn btn-secondary">テーブル画面に戻る</a>
+          <a href="https://kintengai.booktown.tokyo/index.php/MasterTableC" class="btn btn-secondary">テーブル画面に戻る</a>
           <input type="submit" value="変更の保存" class="btn btn-success toastsDefaultSuccess" name="btn_save" id="submitButton">
         </div>
     </div>
