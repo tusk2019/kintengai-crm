@@ -26,7 +26,7 @@ $alert_data = null;
     <?php foreach ($shop_name as $name): ?>
             <h3 class=""><?php echo $name['shop_name']; ?></h3>
             <?php endforeach; ?>
-						<form method="post" action="/index.php/ClientTableC/search">
+	    <form method="post" action="/index.php/ClientTableC/search">
               <input type="text" name="search_client_name" id="" placeholder="顧客名で検索">
               <button class="" type="submit" name="btn_search" value="検索">
             　  <i class="fas fa-search"></i>
