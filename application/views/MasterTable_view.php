@@ -49,10 +49,10 @@
           <div class="card-tools">
             <div class="input-group input-group-sm" style="width: 250px;">
               <div class="input-group-append">
-                <a href="http://kintengai.booktown.tokyo/">
+                <a href="https://kintengai.booktown.tokyo/">
                     <button type="button" class="btn btn-block btn-default">ログアウト</button>
                 </a>
-                <a href="http://kintengai.booktown.tokyo/index.php/MTaddC">
+                <a href="https://kintengai.booktown.tokyo/index.php/MTaddC">
                     <button type="button" class="btn btn-block btn-info">ユーザーの追加</button>
                 </a>
               </div>
@@ -82,12 +82,12 @@
                 <td><?= $row["rep"]; ?></td>
                 <td><?= $row["remarks"]; ?></td>
                 <td>                  
-                  <a href="http://kintengai.booktown.tokyo/index.php/MTeditC?id=<?php echo $row['id'] ?>">
+                  <a href="https://kintengai.booktown.tokyo/index.php/MTeditC?id=<?php echo $row['id'] ?>">
                     <button type="button" class="btn btn-block btn-success">編集</button>
                   </a>
                 </td>
                 <td>
-                  <a href="http://kintengai.booktown.tokyo/index.php/MTdeleteC?id=<?php echo $row['id'] ?>">
+                  <a href="https://kintengai.booktown.tokyo/index.php/MTdeleteC?id=<?php echo $row['id'] ?>">
                       <button type="button" class="btn btn-block btn-danger">削除</button>
                   </a>
                 </td>
